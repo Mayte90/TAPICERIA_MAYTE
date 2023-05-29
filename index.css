@@ -725,10 +725,11 @@ body {
 
 	.conteudo-geral {
 	  position: absolute;
-	  left: 35px;       /*ESTO ES IMPORTANTE,HACE QUE NO SALGA DE LOS BORDES*/
-	  width: 400px !important;
+	  width: 400px !important; /*ESTO ES IMPORTANTE,HACE QUE NO SALGA DE LOS BORDES*/
+	  top: 150px;
+	  left: 28px !important;
 	  /*background: blue;*/
-	  
+
 
 	}
 
@@ -740,19 +741,18 @@ body {
 	  perspective: 2000px;
 	  transform: translate(50%,50%);
 	  /*background: red;*/
-	  
 	}
 
 	.sliderGeral {
 	  --rotatey: 1;
 	  font-size: 4rem;
 	  position: absolute;
-	  
-	  top: 20px;
 	  transform: rotatey(var(--rotatey));
 	  transform-style: preserve-3d;
 	  user-select: none;
 	  cursor: grab;
+	  top: -10px;
+	  /*background: red;*/
 
 	}
 
